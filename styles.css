@@ -2,7 +2,7 @@ body {
   font-family: "Rajdhani", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: #020406;
   color: #fff;
 }
 
@@ -66,6 +66,23 @@ body {
   color: #fff;
   max-width: 600px; /* Largura máxima para o conteúdo */
 }
+.icons {
+  font-size: 25px;
+  color: #fff;
+}
+
+.social-icons .icons {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-icons .icons a {
+  color: #fff;
+  font-size: 44px;
+  text-decoration: none;
+}
 
 h1 {
   font-size: 2.5em;
@@ -84,6 +101,56 @@ img {
   height: 500px;
   object-fit: cover;
   object-position: right top; /* Ajuste conforme necessário para o posicionamento da imagem */
+}
+
+.dobra {
+  position: relative;
+  width: 100%;
+  padding-top: 120px;
+}
+
+.imagem {
+  padding-top: 40px;
+  width: 700px;
+  height: 400px;
+}
+.certificadohtml {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.dobra2 {
+  position: relative;
+  width: 100%;
+  padding-top: 120px;
+}
+
+.imagem2 {
+  padding-top: 40px;
+  width: 700px;
+  height: 400px;
+}
+.certificadohtml2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
 }
 
 #cursor {
@@ -123,6 +190,14 @@ img {
 
   .content {
     padding: 20px;
+  }
+  .social-icons .icons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .imagem {
+    width: 350px;
+    height: 250px;
   }
 
   img {
