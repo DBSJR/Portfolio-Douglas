@@ -5,7 +5,24 @@ body {
   background-color: #020406;
   color: #fff;
 }
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: orange;
+}
 
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #daa520;
+}
 .amenu {
   color: #daa520;
   text-decoration: none;
