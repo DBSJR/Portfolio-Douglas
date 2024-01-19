@@ -110,6 +110,11 @@ img {
 }
 
 .imagem {
+  padding-top: 100px;
+  width: 700px;
+  height: 400px;
+}
+.imagem2 {
   padding-top: 40px;
   width: 700px;
   height: 400px;
@@ -119,8 +124,23 @@ img {
   justify-content: center;
   align-items: center;
 }
+.certificadohtml2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .texto {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 120px;
+  color: #fff;
+  text-align: center;
+}
+.texto2 {
+  position: absolute;
+  padding-top: 120px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -133,9 +153,29 @@ img {
   width: 100%;
   padding-top: 120px;
 }
+.dobra3 {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+}
+.dobra4 {
+  position: relative;
+  width: 100%;
+  padding-top: 200px;
+}
 
 .imagem2 {
-  padding-top: 40px;
+  padding-top: 100px;
+  width: 700px;
+  height: 490px;
+}
+.imagem3 {
+  padding-top: 100px;
+  width: 700px;
+  height: 400px;
+}
+.imagem4 {
+  padding-top: 100px;
   width: 700px;
   height: 400px;
 }
@@ -144,8 +184,36 @@ img {
   justify-content: center;
   align-items: center;
 }
+.certificadohtml3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certificadohtml4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .texto2 {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.texto3 {
+  position: absolute;
+  padding-top: 120px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.texto4 {
+  position: absolute;
+  padding-top: 120px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -196,8 +264,44 @@ img {
     align-items: center;
   }
   .imagem {
+    padding-top: 100px !important;
     width: 350px;
     height: 250px;
+  }
+  .imagem2 {
+    padding-top: 100px !important;
+    width: 350px;
+    height: 250px;
+  }
+  .imagem3 {
+    padding-top: 100px !important;
+    width: 350px;
+    height: 250px;
+  }
+  .imagem4 {
+    padding-top: 100px !important;
+    width: 350px;
+    height: 250px;
+  }
+  .texto {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  .texto2 {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  .texto3 {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  .texto4 {
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
   }
 
   img {
